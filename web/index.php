@@ -44,7 +44,7 @@ foreach ($fontfiles as $fontfile) {
             top: -9999px;
             left: -9999px;
         }
-        
+
         #outputFigDisplay {
 
         }
@@ -98,12 +98,13 @@ foreach ($fontfiles as $fontfile) {
 
                 #bottom li {
                     cursor: pointer;
+                    width: 50%;
                 }
 
                     #bottom li span {
                         display: inline-block;
                         color: #000;
-                        background-color: #00ff00;
+                        background-color: #fff;
                         width: 30px;
                         text-align: center;
                     }
@@ -142,7 +143,11 @@ foreach ($fontfiles as $fontfile) {
 </head>
 <body>
     <div id="top">
-        <span>sorta stupid 3.11</span>
+        <span>sorta stupid </span>
+        <ul>
+            <li id="btn-copy"><span></span> Copy Text</li>
+            <li id="btn-save"><span></span> Convert to Image</li>
+        </ul>
     </div>
 
     <textarea id="text"></textarea>
@@ -156,9 +161,7 @@ foreach ($fontfiles as $fontfile) {
         <ul>
             <li id="btn-left"><span>←</span> Previous Font</li>
             <li id="btn-right"><span>→</span> Next Font</li>
-            <li id="btn-copy"><span></span> Copy Text</li>
-            <li id="btn-save"><span></span> Convert to Image</li>
-        </ul>
+
     </div>
 
 <!--
