@@ -158,7 +158,8 @@ foreach ($fontfiles as $fontfile) {
     <div id="bottom">
         <ul>
             <li id="btn-left"><span>←</span> Previous Font</li>
-            <li id="btn-middle"><span id="btn-copy">Copy Text</li> or <span id="btn-save">Convert to Image</li>
+            <li id="btn-copy">Copy Text</li>
+            <li id="btn-save">Convert to Image</li>
             <li id="btn-right">Next Font <span>→</span></li>
 
     </div>
