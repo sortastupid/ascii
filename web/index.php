@@ -100,8 +100,8 @@ foreach ($fontfiles as $fontfile) {
 
                 #bottom li {
                     cursor: pointer;
-                    width: 30%;
-                    float: right;
+                    width: 23%;
+                    float: left;
                 }
 
                     #bottom li span {
