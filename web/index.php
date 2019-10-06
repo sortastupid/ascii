@@ -39,6 +39,11 @@ foreach ($fontfiles as $fontfile) {
             margin-bottom: 20px;
         }
 
+        #top ul li {
+          text-decoration: none;
+          float: right;
+        }
+
         #text {
             position: absolute;
             top: -9999px;
@@ -154,10 +159,10 @@ foreach ($fontfiles as $fontfile) {
 </head>
 <body>
     <div id="top">
-        <span>sorta stupid </span>
+        <span>ASCII text generator 5000</span>
         <ul>
-            <li id="btn-copy"><span></span> Copy Text</li>
-            <li id="btn-save"><span></span> Convert to Image</li>
+            <li id="btn-copy">Copy Text</li>
+            <li id="btn-save">Convert to Image</li>
         </ul>
     </div>
 
@@ -171,7 +176,7 @@ foreach ($fontfiles as $fontfile) {
     <div id="bottom">
         <ul>
             <li id="btn-left"><span>←</span> Previous Font</li>
-            <li id="btn-right"><span>→</span> Next Font</li>
+            <li id="btn-right">Next Font <span>→</span></li>
 
     </div>
 
