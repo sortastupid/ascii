@@ -39,11 +39,6 @@ foreach ($fontfiles as $fontfile) {
             margin-bottom: 20px;
         }
 
-        #top ul li {
-          text-decoration: none;
-          float: right;
-        }
-
         #text {
             position: absolute;
             top: -9999px;
@@ -108,6 +103,11 @@ foreach ($fontfiles as $fontfile) {
               text-align: left;
             }
 
+            #bottom #btn-center {
+              float: right;
+              text-align: center;
+            }
+
             #bottom #btn-right {
               float: right;
               text-align: right;
@@ -115,7 +115,7 @@ foreach ($fontfiles as $fontfile) {
 
                 #bottom li {
                     cursor: pointer;
-                    width: 50%;
+                    width: 30%;
                 }
 
                     #bottom li span {
@@ -160,10 +160,6 @@ foreach ($fontfiles as $fontfile) {
 <body>
     <div id="top">
         <span>ASCII text generator 5000</span>
-        <ul>
-            <li id="btn-copy">Copy Text</li>
-            <li id="btn-save">Convert to Image</li>
-        </ul>
     </div>
 
     <textarea id="text"></textarea>
@@ -176,6 +172,7 @@ foreach ($fontfiles as $fontfile) {
     <div id="bottom">
         <ul>
             <li id="btn-left"><span>←</span> Previous Font</li>
+            <li id="btn-middle"><span id="btn-copy">Copy Text</li> or <span id="btn-save">Convert to Image</li>
             <li id="btn-right">Next Font <span>→</span></li>
 
     </div>
