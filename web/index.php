@@ -98,24 +98,10 @@ foreach ($fontfiles as $fontfile) {
                 margin: 0;
             }
 
-            #bottom #btn-left {
-              float: left;
-              text-align: left;
-            }
-
-            #bottom #btn-center {
-              float: right;
-              text-align: center;
-            }
-
-            #bottom #btn-right {
-              float: right;
-              text-align: right;
-            }
-
                 #bottom li {
                     cursor: pointer;
                     width: 30%;
+                    float: right;
                 }
 
                     #bottom li span {
