@@ -100,12 +100,12 @@ foreach ($fontfiles as $fontfile) {
 
             #bottom #btn-left {
               float: left;
-              text align: left;
+              text-align: left;
             }
 
             #bottom #btn-right {
               float: right;
-              text align: right;
+              text-align: right;
             }
 
                 #bottom li {
