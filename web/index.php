@@ -88,12 +88,24 @@ foreach ($fontfiles as $fontfile) {
             position: fixed;
             width: 100%;
             bottom: 0%;
+            color: #000;
+            font-size: 2em;
         }
 
             #bottom ul {
                 list-style: none;
                 padding: 0;
                 margin: 0;
+            }
+
+            #bottom #btn-left {
+              float: left;
+              text align: left;
+            }
+
+            #bottom #btn-right {
+              float: right;
+              text align: right;
             }
 
                 #bottom li {
@@ -106,7 +118,6 @@ foreach ($fontfiles as $fontfile) {
                         color: #000;
                         background-color: #fff;
                         width: 30px;
-                        text-align: center;
                     }
 
     .noselect {
